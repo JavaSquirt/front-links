@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.container-main {
+  width: 980px;
+  padding: 0 10px;
+  border: 1px solid #131313;
+  background-color: #ededed;
+}
