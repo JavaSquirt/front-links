@@ -9,7 +9,7 @@ h1, h2, h3 {
   margin-left: 41px;
   font-family: 'Poiret One', cursive;
   font-weight: 400;
-  color: #777;
+  color: #df74fc;
 }
 
 h2 {
@@ -176,7 +176,7 @@ li {
 
 
 /* ==========================================================================
-   HEADER
+   LINK-CONTENT
    ========================================================================== */
 
 .link-effect a {
@@ -206,3 +206,38 @@ li {
 	transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
 	opacity: 1;
 }
+
+
+
+
+
+/* ==========================================================================
+   LINK-ASIDE
+   ========================================================================== */
+
+.link-effect-aside {
+    display: inline-block;
+    color: #6f8686;
+    text-decoration: none;
+}
+
+.link-effect-aside::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #6f8686;
+    transition: width .3s;
+}
+
+.link-effect-aside:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+
+
+
+
+
+
