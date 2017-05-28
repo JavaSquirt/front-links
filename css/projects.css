@@ -1,0 +1,505 @@
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'codropsicons';
+  src:url('../fonts/codropsicons/codropsicons.eot');
+  src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+    url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+    url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+
+body {
+  background: #fff;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1em;
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
+a {
+  outline: none;
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #528cb3;
+}
+
+section {
+  padding: 1em;
+  text-align: center;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.content > h2 {
+  clear: both;
+  margin: 0;
+  padding: 15px 8px;
+  color: #df74fc;
+  font-weight: 400;
+  font-size: 27px;
+}
+
+.content > h2:first-child {
+  padding-top: 0em;
+}
+
+/* Demo links */
+.codrops-demos {
+  clear: both;
+  padding: 1em 0 0;
+  text-align: center;
+}
+
+.content + .codrops-demos {
+  padding-top: 5em;
+}
+
+.codrops-demos a {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 1em 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.codrops-demos a:hover,
+.codrops-demos a:focus,
+.codrops-demos a.current-demo {
+  background: #3c414a;
+  color: #fff;
+}
+
+/* To Navigation Style */
+.codrops-top {
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 0.69em;
+  line-height: 2.2;
+}
+
+.codrops-top a {
+  display: inline-block;
+  padding: 1em 2em;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.codrops-top span.right {
+  float: right;
+}
+
+.codrops-top span.right a {
+  display: block;
+  float: left;
+}
+
+.codrops-icon:before {
+  margin: 0 4px;
+  text-transform: none;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-family: 'codropsicons';
+  line-height: 1;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+  content: "\e001";
+}
+
+.codrops-icon-prev:before {
+  content: "\e004";
+}
+
+/* Related demos */
+.related {
+  clear: both;
+  padding: 6em 1em;
+  font-size: 120%;
+}
+
+.related > a {
+  display: inline-block;
+  margin: 20px 10px;
+  padding: 25px;
+  border: 1px solid #4f7f90;
+  text-align: center;
+}
+
+.related a:hover {
+  border-color: #39545e;
+}
+
+.related a img {
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.related a:hover img,
+.related a:active img {
+  opacity: 1;
+}
+
+.related a h3 {
+  margin: 0;
+  padding: 0.5em 0 0.3em;
+  max-width: 300px;
+  text-align: left;
+}
+
+/* Demo ad design */
+body #cdawrap {
+  background: none;
+  top: 50px;
+  border: none;
+}
+
+body #cdawrap a {
+  color: #fff !important;
+}
+
+body #cda-remove {
+  color: #fff;
+}
+
+@media screen and (max-width: 25em) {
+  .codrops-header {
+    font-size: 75%;
+  }
+  .codrops-icon span {
+    display: none;
+  }
+}
+
+h1 {
+  margin-left: 41px;
+  font-size: 40px;
+  font-family: 'Poiret One', cursive;
+  font-weight: 400;
+  color: #df74fc;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Poiret One', cursive;
+  color: #f1c1ff;
+}
+
+
+
+
+
+
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+
+ .header {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+
+  background: -webkit-linear-gradient(#fafafa, #f1f1f1);
+  background: -moz-linear-gradient(#fafafa, #f1f1f1);
+  background: -ms-linear-gradient(#fafafa, #f1f1f1);
+  background: -o-linear-gradient(#fafafa, #f1f1f1);
+  background: linear-gradient(#fafafa, #f1f1f1);
+
+  -webkit-box-shadow: inset 0 1px 0 #fff, 0 0px 0 1px #fff;
+  -moz-box-shadow: inset 0 1px 0 #fff, 0 0px 0 1px #fff;
+  box-shadow: inset 0 1px 0 #fff, 0 0px 0 1px #fff;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+.header-nav .nav-menu {
+ font-family: 'Lato', helvetica, arial, sans-serif;
+ height: 50px;
+  margin: 40px 0;
+  padding: 50px 0;
+  text-align: center;
+
+}
+
+.header-nav ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+
+  background: -webkit-linear-gradient(#fafafa, #f1f1f1);
+  background: -moz-linear-gradient(#fafafa, #f1f1f1);
+  background: -ms-linear-gradient(#fafafa, #f1f1f1);
+  background: -o-linear-gradient(#fafafa, #f1f1f1);
+  background: linear-gradient(#fafafa, #f1f1f1);
+
+  -webkit-box-shadow: inset 0 1px 0 #fff, 0 0px 0 1px #fff;
+  -moz-box-shadow: inset 0 1px 0 #fff, 0 0px 0 1px #fff;
+  box-shadow: inset 0 1px 0 #fff, 0 0px 0 1px #fff;
+}
+
+.header-nav ul:after {
+  content: '';
+  height: 46px;
+  left: -50px;
+  position: absolute;
+  top: -32px;
+  width: 120%;
+  z-index: 1;
+  background: -webkit-linear-gradient(left top, rgba(255,255,255,.1), rgba(255,255,255,.7));
+  background: -moz-linear-gradient(left top, rgba(255,255,255,.1), rgba(255,255,255,.7));
+  background: -ms-linear-gradient(left top, rgba(255,255,255,.1), rgba(255,255,255,.7));
+  background: -o-linear-gradient(left top, rgba(255,255,255,.1), rgba(255,255,255,.7));
+  background: linear-gradient(left top, rgba(255,255,255,.1), rgba(255,255,255,.7));
+  -webkit-transform: rotate(-2.4deg);
+  -moz-transform: rotate(-2.4deg);
+  -ms-transform: rotate(-2.4deg);
+  -o-transform: rotate(-2.4deg);
+   transform: rotate(-2.4deg);
+}
+
+.header-nav li {
+  display: inline-block;
+}
+
+.header-nav a {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #eee;
+  color: #888;
+  display: block;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 35px;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #fff;
+  z-index: 2;
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  -ms-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  transition: all 150ms linear;
+}
+
+.header-nav a:focus {
+  outline: 0;
+}
+
+.header-nav li:first-child a {
+  border-left: none;
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  border-radius: 10px 0 0 10px;
+}
+
+.header-nav li:last-child a {
+  border-right: none;
+  -webkit-border-radius: 0 10px 10px 0;
+  -moz-border-radius: 0 10px 10px 0;
+  border-radius: 0 10px 10px 0;
+}
+
+.header-nav ul:hover a {
+  color: transparent;
+  text-shadow: 0 0 5px #ccc;
+}
+
+.header-nav ul:hover a:hover {
+  background: #fafafa;
+  color: #444;
+  line-height: 43px;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.header-nav ul:hover a:active {
+  border-left-color: #f0f0f0;
+  color: #999;
+  line-height: 47px;
+  -webkit-box-shadow: inset 0 0 22px #e9e9e9;
+  -moz-box-shadow: inset 0 0 22px #e9e9e9;
+  box-shadow: inset 0 0 22px #e9e9e9;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+
+
+
+
+/* ==========================================================================
+   HOVER-EFFECT
+   ========================================================================== */
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'feathericons';
+  src:url('../fonts/feathericons/feathericons.eot?-8is7zf');
+  src:url('../fonts/feathericons/feathericons.eot?#iefix-8is7zf') format('embedded-opentype'),
+    url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'),
+    url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'),
+    url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg');
+}
+
+.grid {
+  position: relative;
+  margin: 0 auto;
+  padding: 1em 0 4em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+
+/* Common style */
+.grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 320px;
+  max-width: 480px;
+  max-height: 360px;
+  width: 48%;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.grid figure figcaption p {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  text-transform: none;
+  color: #f1c1ff;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+.grid figure h2 span {
+  font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+  margin: 0;
+}
+
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+/*---------------*/
+/***** Milo *****/
+/*---------------*/
+
+figure.effect-milo {
+  background: #cefffc;
+}
+
+figure.effect-milo img {
+  max-width: none;
+  width: -webkit-calc(100% + 60px);
+  width: calc(100% + 60px);
+  opacity: 1;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-30px,0,0) scale(1.12);
+  transform: translate3d(-30px,0,0) scale(1.12);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+figure.effect-milo:hover img {
+  opacity: 0.5;
+  -webkit-transform: translate3d(0,0,0) scale(1);
+  transform: translate3d(0,0,0) scale(1);
+}
+
+figure.effect-milo h2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1em 1.2em;
+}
+
+figure.effect-milo p {
+  padding: 0 10px 0 0;
+  width: 50%;
+  border-right: 1px solid #fff;
+  text-align: right;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-40px,0,0);
+  transform: translate3d(-40px,0,0);
+}
+
+figure.effect-milo:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
