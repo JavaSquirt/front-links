@@ -45,7 +45,7 @@ section {
   clear: both;
   margin: 0;
   padding: 15px 8px;
-  color: #df74fc;
+  color: #371a3f;
   font-weight: 400;
   font-size: 27px;
 }
@@ -190,13 +190,13 @@ h1 {
   font-size: 40px;
   font-family: 'Poiret One', cursive;
   font-weight: 400;
-  color: #df74fc;
+  color: #371a3f;
 }
 
 h2 {
   font-size: 40px;
   font-family: 'Poiret One', cursive;
-  color: #f1c1ff;
+  color: #371a3f;
 }
 
 
@@ -404,9 +404,9 @@ h2 {
 
 .grid figure figcaption p {
   font-family: 'Lora', serif;
-  font-size: 20px;
+  font-size: 22px;
   text-transform: none;
-  color: #f1c1ff;
+  color: #371a3f;
 }
 
 .grid figure figcaption::before,
@@ -489,7 +489,7 @@ figure.effect-milo h2 {
 figure.effect-milo p {
   padding: 0 10px 0 0;
   width: 50%;
-  border-right: 1px solid #fff;
+  border-right: 1px solid #371a3f;
   text-align: right;
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
