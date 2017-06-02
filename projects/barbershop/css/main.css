@@ -14,7 +14,7 @@ body {
 .inner-page {
   color: #000;
 
-  background: #f8f3f0 url("img/bg-content-block.png") repeat;
+  background: #f8f3f0 url("../img/bg-content-block.png") repeat;
 }
 
 
@@ -752,7 +752,7 @@ body {
 
   color: #000;
 
-  background: #f8f3f0 url("img/bg-content-block.png");
+  background: #f8f3f0 url("../img/bg-content-block.png");
   box-shadow: 0 30px 50px rgba(0, 0, 0, .7);
 }
 
