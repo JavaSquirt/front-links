@@ -756,6 +756,11 @@ body {
   box-shadow: 0 30px 50px rgba(0, 0, 0, .7);
 }
 
+.modal-content-show {
+  display: block;
+  animation: bounce .6s;
+}
+
 .modal-content-map {
   position: fixed;
   top: 50%;
@@ -940,4 +945,27 @@ body {
     :checked + .checkbox-indicator
     ::after {
   transform: rotate(-45deg);
+}
+
+
+
+/* ==========================================================================
+   MODAL-ANIMATION
+   ========================================================================== */
+
+@keyframes bounce {
+  0%   { transform: translate(-2000px); }
+  70%  { transform: translate(30px); }
+  90%  { transform: translate(-10px); }
+  100% { transform: translate(0); }
+}
+
+@keyframes shake {
+  0%, 100%                { transform: translate(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translate(-10px); }
+  20%, 40%, 60%, 80%      { transform: translate(10px); }
+}
+
+.modal-error {
+  animation: shake .6s;
 }
