@@ -225,6 +225,26 @@ main {
 	border-bottom: none;
 }
 
+.pager {
+	margin: 0 auto;
+	display: table;
+	font-size: 35px;
+	font-weight: 700;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	color: #868686;
+}
+
+.pager a {
+	text-decoration: none;
+	color: #868686;
+	padding: 0 10px;
+}
+
+.pager a:hover {
+	color: #eb4900;
+}
+
 .sidebar {
 	float: right;
 	overflow: hidden;
