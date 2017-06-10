@@ -22,6 +22,11 @@ h3 {
   font-size: 26px;
 }
 
+p {
+  color: #555;
+  margin-bottom: 50px;
+}
+
 a {
   text-decoration: none;
 }
