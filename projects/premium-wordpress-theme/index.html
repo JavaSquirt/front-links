@@ -6,8 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Home</title>
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700|PT+Sans:400,400i" rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery-ui-1.9.2.custom.css">
   <link rel="stylesheet" href="css/flexslider.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/modernizm.js"></script>
 </head>
 <body>
   <div class="container">
@@ -30,10 +32,10 @@
       <nav class="header-navigation">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
+          <li><a href="about.html">About Us</a></li>
           <li><a href="#">The Team</a></li>
           <li><a href="#">Testimonials</a></li>
-          <li><a href="#">Our Work</a></li>
+          <li><a href="portfolio.html">Our Work</a></li>
           <li><a href="#">Our Videos</a></li>
           <li><a href="#">Blog</a></li>
           <li><a href="#">Contacts</a></li>
@@ -192,15 +194,72 @@
           </a>
         </div>
       </div>
+      <div class="content-benefits">
+        <div class="content-benefits__why-us">
+          <h2 class="main-content__h2-background">
+            <span class="main-content__h2">
+              Why Choose Us
+            </span>
+          </h2>
+          <div id="accordion">
+            <h3>Accordion Title 1</h3>
+            <div>
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna.
+            </div>
+            <h3>Accordion Title 2</h3>
+            <div>
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna.
+            </div>
+            <h3>Accordion Title 3</h3>
+            <div>
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna.
+            </div>
+          </div>
+        </div>
+        <div class="content-benefits__services">
+          <h2 class="main-content__h2-background">
+            <span class="main-content__h2">
+              Our Services
+            </span>
+          </h2>
+          <div id="tabs">
+            <ul>
+              <li><a href="#tabs-1">Tab Title 1</a></li>
+              <li><a href="#tabs-2">Tab Title 2</a></li>
+              <li><a href="#tabs-3">Tab Title 3</a></li>
+              <li><a href="#tabs-4">Tab Title 4</a></li>
+            </ul>
+            <div id="tabs-1"><img class="content-benefits__tabs-image" src="img/tabs-img1.jpg" alt="img">
+              Cum sociis natoque penatibus et magnis dis partent montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis disamet non magna.
+            </div>
+            <div id="tabs-2">
+              Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.
+            </div>
+            <div id="tabs-3">
+              Nam dui erat, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.
+            </div>
+            <div id="tabs-4">
+              Nam dui erat, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-
+    <footer class="footer">
+      <p class="copyright">
+        Copyright 2012. All Right Reserved MonkeeThemes.
+      </p>
+      <p class="footer-navigation">
+        <a href="#">Home</a>
+        <a href="about.html">About</a>
+        <a href="#">Sitemap</a>
+        <a href="#">Contact</a>
+      </p>
+    </footer>
   </div>
 
-
-
   <!-- JabbaSquirt -->
-  <script src="js/modernizm.js"></script>
+  <!-- <script src="../js/modernizm.js"></script> -->
 
   <!-- jQuery -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
@@ -233,7 +292,6 @@
   <!-- Optional FlexSlider Additions -->
   <script src="js/jquery.easing.js"></script>
   <script src="js/jquery.mousewheel.js"></script>
-  <script defer src="js/demo.js"></script>
   <script src="js/jquery-ui-1.9.2.custom.js"></script>
 </body>
 </html>

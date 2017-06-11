@@ -31,6 +31,14 @@ body {
   margin: 0 auto;
 }
 
+.img-left {
+  background: none repeat scroll 0 0 #fff;
+  float: left;
+  padding: 10px 20px 10px 0;
+  position: relative;
+  z-index: 10;
+}
+
 
 
 /* ==========================================================================
@@ -155,8 +163,10 @@ body {
   font-family: 'Droid Serif', serif;
 }
 
+
+
 /* ==========================================================================
-   CONTENT
+   MAIN-CONTENT
    ========================================================================== */
 
 .under-slider {
@@ -225,6 +235,7 @@ body {
   font-weight: 400;
   background: url("../img/bg-content.jpg") center repeat-x;
   position: relative;
+  padding-bottom:35px;
 }
 
 .main-content__h2 {
@@ -300,4 +311,237 @@ body {
 
 a:hover.works-link .work-link__description {
   display: block;
+}
+
+.content-benefits {
+  overflow: hidden;
+}
+
+.content-benefits__why-us {
+  width: 49%;
+  float: left;
+}
+
+.content-benefits__services {
+  width: 49%;
+  float: right;
+}
+
+.content-benefits__tabs-image {
+  float: right;
+  margin: 0 0 15px 15px;
+}
+
+.footer {
+  background: url("../img/bg-content.jpg");
+  margin-top: 25px;
+  font-size: 12px;
+  color: #707070;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  overflow: hidden;
+  padding: 20px;
+  padding-left: 30px;
+}
+
+.copyright {
+  float: left;
+}
+
+.footer-navigation {
+  float: right;
+}
+
+.footer-navigation a {
+  color: #707070;
+  border-right: 1px solid #707070;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.footer-navigation a:last-child {
+  border-right: none;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+
+
+/* ==========================================================================
+   ABOUT-CONTENT
+   ========================================================================== */
+
+.page-title {
+  background: url("../img/bg-content.jpg");
+  padding: 25px 30px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.page-title h1 {
+  float: left;
+  font-size: 24px;
+  font-family: 'Droid Serif', serif;
+  font-weight: 400;
+}
+
+.bread-crumbs {
+  float: right;
+  font-style: italic;
+  font-size: 12px;
+  font-family: 'PT Sans', sans-serif;
+  margin: 7px 0 0 0;
+  color: #363636;
+}
+.bread-crumbs a {
+  color: #363636;
+}
+
+.main-content__about-background {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  background: url("../img/bg-content.jpg") center repeat-x;
+  position: relative;
+  padding-bottom: 0;
+  margin-bottom: 35px;
+}
+
+.our-team-content {
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.our-team-content div {
+  width: 273px;
+  padding: 0 10px;
+  float: left;
+  margin-left: 30px;
+}
+
+.our-team-content div:first-child {
+  width: 273px;
+  padding: 0 10px;
+  float: left;
+  margin-left: 0;
+}
+
+.our-team-content div h3 {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Droid Serif', serif;
+  overflow: hidden;
+  line-height: 2.3;
+  margin-bottom: 20px;
+}
+
+.our-team-content div h3 span {
+  font-style: italic;
+  font-size: 12px;
+  font-family: 'PT Sans', sans-serif;
+  color: #898989;
+}
+
+.our-team-content div h3 img {
+  float: left;
+  margin-right: 20px;
+}
+
+.our-clients {
+  overflow: hidden;
+}
+
+.our-clients a {
+  float: left;
+  margin-left: 15px;
+}
+
+.our-clients a:first-child {
+  margin-left: 0;
+}
+
+
+
+/* ==========================================================================
+   PORTFOLIO-CONTENT
+   ========================================================================== */
+
+.portfolio-navigation {
+  background: url("../img/bg-content-small.jpg") bottom repeat-x;
+  overflow: hidden;
+  margin: 0 30px 50px 30px;
+}
+
+.portfolio-navigation ul {
+  background: url("../img/bg-content-small.jpg") top repeat-x;
+  overflow: hidden;
+  list-style: none;
+}
+
+.portfolio-navigation ul li {
+  float: left;
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.portfolio-navigation ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: #333;
+  text-decoration: none;
+  margin: 0;
+}
+
+.portfolio-navigation ul li a:hover {
+  border-bottom: 5px solid #d7a229;
+  color: #d7a229;
+  padding-bottom: 10px;
+}
+
+.article-content {
+  overflow: hidden;
+  margin-bottom: 30px;
+  background: url("../img/bg-content-small.jpg") bottom repeat-x;
+}
+
+.article-content__img {
+  float: left;
+  margin: 0 30px 0 0;
+}
+
+.article-content__head {
+  margin-top: 10px;
+}
+
+.article-content__head h2 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Droid Serif', serif;
+  color: #363636;
+  background: #fff;
+
+  margin-bottom: 7px;
+}
+
+.article-content__head p {
+  font-size: 12px;
+  font-family: 'PT Sans', sans-serif;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+a.read-more-btn {
+  display: inline-block;
+  width: 101px;
+  background: url("../img/read-more-btn.jpg") 0 0 no-repeat;
+  font-size: 12px;
+  font-family: 'Droid Serif', serif;
+  font-weight: 700;
+  text-align: center;
+  color: #404040;
+  padding: 4px 0;
+}
+
+a:hover.read-more-btn {
+  background: url("../img/read-more-btn.jpg") 0 -29px no-repeat;
+  text-decoration: none;
 }
