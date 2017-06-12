@@ -545,3 +545,110 @@ a:hover.read-more-btn {
   background: url("../img/read-more-btn.jpg") 0 -29px no-repeat;
   text-decoration: none;
 }
+
+.pager {
+  list-style: none;
+  overflow: hidden;
+  float: right;
+}
+
+.pager li {
+  float: left;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.pager li a {
+  color: #363636;
+  display: block;
+  padding: 5px 10px;
+}
+
+.pager li a.page-active {
+  color: #fff;
+  background: #d7a229;
+  margin: 0 10px ;
+}
+
+
+
+/* ==========================================================================
+   PORTFOLIO-SINGLE
+   ========================================================================== */
+
+.slider-portfolio {
+  background: url("../img/bg-content.jpg");
+  padding: 30px 30px 0 30px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.slider-portfolio .flexslider {
+  border-bottom: none;
+}
+
+.slider-portfolio .flex-control-nav {
+  display: none;
+}
+
+.portfolio-single-content {
+  max-width: 710px;
+  float: left;
+}
+
+.project-description {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Droid Serif', serif;
+  margin-bottom: 20px;
+}
+
+.project-description img {
+  vertical-align: bottom;
+  margin-right: 15px;
+}
+
+.portfolio-single-aside {
+  width: 200px;
+  float: right;
+}
+
+.portfolio-single-aside h3 {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Droid Serif', serif;
+  background: url("../img/bg-content.jpg") left center repeat-x;
+  margin-bottom: 20px;
+}
+
+.portfolio-single-aside h3 span {
+  padding: 0 20px 0 0;
+}
+
+.portfolio-single-aside ul {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.portfolio-single-aside a {
+  color: #333;
+}
+
+.portfolio-single-aside a:hover {
+  color: #d7a229;
+  text-decoration: none;
+}
+.main-content__h2-related {
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.h2-related {
+  <!-- да, я тупой и не нашёл как переопределить -->
+  background: url(../img/bg-content.jpg) 0 18px repeat-x !important;
+}
+
+.clearfix {
+  clear: both;
+}
