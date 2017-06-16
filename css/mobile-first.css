@@ -4,13 +4,40 @@ li {
 
 @media (min-width: 300px) {
   .container {
+    display: grid;
+    grid-template-columns: 1fr;
     padding: 10px;
+    font-size: 15px;
   }
 
   ul {
     margin: 0;
-    padding: 0;
+    padding: 0 0 16px 0;
+    border-bottom: 1px solid #999;
   }
+
+  li {
+    text-align: center;
+  }
+
+  a {
+    color: #FF5A3F;
+    font-weight: 700;
+  }
+
+  p {
+    margin-top: 3px;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    text-align: center;
+    /*margin-bottom: 16px;*/
+  }
+}
+
+@media (min-width: 480px) {
+/* стили */
 }
 
 @media (min-width: 768px) {
