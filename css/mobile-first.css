@@ -1,5 +1,16 @@
+li {
+  list-style: none;
+}
+
 @media (min-width: 300px) {
-/* стили */
+  .container {
+    padding: 10px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media (min-width: 768px) {
